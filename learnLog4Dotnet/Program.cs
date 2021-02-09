@@ -28,6 +28,10 @@ namespace learnLog4Dotnet
             loggerFile.Debug("调试");
             loggerFile.Fatal("错误");
 
+            var loggerDatabase = LogManager.GetLogger("UB.Database");
+            loggerDatabase.Debug("调试");
+            loggerDatabase.Fatal("错误");
+
             Console.WriteLine("hello");
 
         }
