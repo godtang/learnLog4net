@@ -7,8 +7,8 @@
     <ProjectGuid>{496E5813-C6BB-48D3-9E30-BC02D4E183B7}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>learnLog4Dotnet</RootNamespace>
-    <AssemblyName>learnLog4Dotnet</AssemblyName>
+    <RootNamespace>learnLog4net</RootNamespace>
+    <AssemblyName>learnLog4net</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

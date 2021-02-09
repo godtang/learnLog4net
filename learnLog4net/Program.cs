@@ -11,13 +11,10 @@ using System.Threading.Tasks;
 
 
 
-namespace learnLog4Dotnet
+namespace learnLog4net
 {
     class Program
     {
-        public static ILog DefaultLogger;
-
-        public static ILog HardwareLogger;
         static void Main(string[] args)
         {
             InitLog4Net();
