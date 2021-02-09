@@ -19,21 +19,27 @@ namespace learnLog4net
         {
             InitLog4Net();
 
-            var loggerConsole = LogManager.GetLogger("UB.Console");
-            loggerConsole.Debug("调试");
-            loggerConsole.Info("消息");
+            //             var loggerConsole = LogManager.GetLogger("UB.Console");
+            //             loggerConsole.Debug("调试");
+            //             loggerConsole.Info("消息");
+            // 
+            //             var loggerFile = LogManager.GetLogger("UB.File");
+            //             loggerFile.Debug("调试");
+            //             loggerFile.Fatal("错误");
+            // 
+            //             var loggerDatabase = LogManager.GetLogger("UB.Database");
+            //             loggerDatabase.Debug("调试");
+            //             loggerDatabase.Fatal("错误");
+            // 
+            //             var loggerUDP = LogManager.GetLogger("UB.UDP");
+            //             loggerUDP.Debug("调试");
+            //             loggerUDP.Fatal("错误");
 
-            var loggerFile = LogManager.GetLogger("UB.File");
-            loggerFile.Debug("调试");
-            loggerFile.Fatal("错误");
+            var loggerAll = LogManager.GetLogger("UB.ALL");
+            loggerAll.Debug("调试");
+            loggerAll.Fatal("错误");
 
-            var loggerDatabase = LogManager.GetLogger("UB.Database");
-            loggerDatabase.Debug("调试");
-            loggerDatabase.Fatal("错误");
 
-            var loggerUDP = LogManager.GetLogger("UB.UDP");
-            loggerUDP.Debug("调试");
-            loggerUDP.Fatal("错误");
 
             Console.WriteLine("hello");
 
