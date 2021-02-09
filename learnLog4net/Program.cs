@@ -31,6 +31,10 @@ namespace learnLog4net
             loggerDatabase.Debug("调试");
             loggerDatabase.Fatal("错误");
 
+            var loggerUDP = LogManager.GetLogger("UB.UDP");
+            loggerUDP.Debug("调试");
+            loggerUDP.Fatal("错误");
+
             Console.WriteLine("hello");
 
         }
